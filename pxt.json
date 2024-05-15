@@ -1,0 +1,27 @@
+{
+    "name": "Heartbeat test",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "datalogger": "*",
+        "Perpritrator Version 6": "github:zakunao/perpritrator-code#master"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.28",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
